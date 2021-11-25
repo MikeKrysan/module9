@@ -16,7 +16,7 @@ import java.util.Scanner;
 public class Solution {
         //from here
         public String getRecept() throws FileNotFoundException {                                //FileNotFoundException - 1
-            Scanner scanner = new Scanner(new FileInputStream("src/recept.txt"));
+            Scanner scanner = new Scanner(new FileInputStream("src/Solution9_7_1/Recept.txt"));
             double result = 0;
 
             while (scanner.hasNextLine()) {                                                     //hasNextLine() - 2
